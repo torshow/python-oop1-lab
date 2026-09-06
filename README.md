@@ -18,13 +18,18 @@ from lib.coffee import Coffee
 
 book = Book("And Then There Were None", 272)
 book.turn_page()
+
 # Flipping the page...wow, you read fast!
 
 coffee = Coffee("Large", 3.50)
 coffee.tip()
+
 # This coffee is great, here's a tip!
+
 print(coffee.price)
+
 # 4.5
+
 Running the tests
 bash
 pytest -x lib/testing/book_test.py
@@ -32,4 +37,4 @@ pytest -x lib/testing/coffee_test.py
 Screenshot
 
 Show Image
-  ![Passing test suite](./screenshot.png)
+![Passing test suite](screenshots/Screenshot.png)
